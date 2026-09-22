@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Lorem Ipsum</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="brand">
+    <img src="assets/LI_logo_(no_text).jpeg" alt="Lorem Ipsum logo" class="brand-mark">
+    <span class="brand-name">Lorem Ipsum</span>
+  </a>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">Over Ons</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <span class="tag">Contact</span>
+  <!-- EDIT: contact headline -->
+  <h1>Laat ons weten wat uw probleem of vraagstuk is.</h1>
+</section>
+
+<section>
+  <div class="split">
+    <div>
+      <h2>Neem contact met ons op</h2>
+      <p>Mail ons direct of vul uw probleem in via het veld rechts en dan komen wij z.s.m. op u terug.</p>
+      <ul class="contact-info">
+        <li>
+          <span class="label">Email</span>
+          <a href="mailto:info@lorumipsumict.nl">info@loremipsumict.nl</a>
+        </li>
+        <li>
+          <span class="label">Telefoon - Rubin de Jong</span>
+          <a href="tel:+31651726277">+31 6 51726277</a>
+        </li>
+        <li>
+          <span class="label">Telefoon - Jorg Wallenburg</span>
+          <a href="tel:+31643713063">+31 6 43713063</a>
+        </li>
+        <li>
+          <span class="label">Locatie</span>
+          <!-- EDIT: your real address or service area -->
+          <span>Molenweg 23, Oosterwolde (FR) - 8431HP</span>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <!--
+        EDIT: This form needs a backend to actually send you the
+        submissions, since this is a static site. Easiest free option:
+        sign up at formspree.io, get your form ID, and replace
+        YOUR_FORM_ID below. Until then this form won't send anywhere.
+      -->
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div>
+          <label for="name">Naam</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Wat is uw vraagstuk?</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Stuur bericht</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>Lorem Ipsum ICT</span>
+  <span>ICT Support, Recyclen &amp; 3D Printen</span>
+</footer>
+
+</body>
+</html>
